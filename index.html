@@ -71,7 +71,7 @@
             };
 
             // Change endpoint here
-            fetch("https://class-fruit.azurewebsites.net/", requestOptions) 
+            fetch("https://class-fruit.azurewebsites.net/mypred", requestOptions) 
                 .then((response) => response.text())
                 .then((response) => {
                     result.innerText = response;
